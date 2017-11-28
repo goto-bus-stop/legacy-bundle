@@ -1,0 +1,44 @@
+{
+  "name": "legacy-bundle",
+  "description": "create an additional browserify bundle for legacy browsers (ES5)",
+  "version": "0.0.0",
+  "author": "Renée Kooi <renee@kooi.me>",
+  "bugs": {
+    "url": "https://github.com/goto-bus-stop/legacy-bundle/issues"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  },
+  "homepage": "https://github.com/goto-bus-stop/legacy-bundle",
+  "keywords": [
+    "babel",
+    "babel-preset-env",
+    "browserify",
+    "es2015",
+    "es5",
+    "legacy"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goto-bus-stop/legacy-bundle.git"
+  },
+  "scripts": {
+    "test": " && tape test/*.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.32",
+    "@babel/polyfill": "^7.0.0-beta.32",
+    "@babel/preset-env": "^7.0.0-beta.32",
+    "browser-pack": "^6.0.2",
+    "core-js": "^2.5.1",
+    "defined": "^1.0.0",
+    "labeled-stream-splicer": "^2.0.0",
+    "module-deps": "^4.1.1",
+    "outpipe": "^1.1.1",
+    "regenerator-runtime": "^0.11.0",
+    "through2": "^2.0.3"
+  }
+}
